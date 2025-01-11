@@ -155,7 +155,7 @@ body{
 }
 .div3>p{
     line-height: 24px;
-
+    color: rgba(14, 14, 14, 0.8);
 }
 .div3>.last-description{
     margin-top: -10px;
@@ -278,11 +278,10 @@ body{
     gap: 20px;
 }
 .amount1,.amount2,.amount3,.amount4{
-    border: 1px solid black;
     width: 240px;
     border-radius: 16px;
-    border: none;
     background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
 }
 .amount2{
     background-color: rgb(198, 228, 214) ;
@@ -360,9 +359,32 @@ body{
     background: rgb(0, 106, 80);
     border: none;
     margin-left: -4px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 22px;
     color: white;
     padding-bottom: 3px;
+}
+
+/* footer section */
+footer{
+    background-color: white;
+    height: 216px;
+    padding: 50px 160px;
+}
+hr{
+    width: 1122px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    margin: 32px 0px;
+}
+.footer-head>h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+    margin-top: 40px;
 }
