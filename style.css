@@ -6,6 +6,7 @@
 
 body{
     padding: 0px 160px;
+    background-color: rgba(168, 150, 150, 0.123);
 }
 
 .color1{
@@ -92,6 +93,9 @@ body{
     font-size: 40px;
     margin-top: 90px;
 }
+.div1>p{
+    line-height: 24px;
+}
 /* div2 */
 .div2{
     display: flex;
@@ -119,6 +123,10 @@ body{
     font-size: 16px;
     font-weight: 600;
 }
+.div2>.div-description1>p, .div-description2>p, .div-description3>p{
+    line-height: 24px;
+    margin-bottom: -10px;
+}
 .div-description1{
     background-color: rgba(84, 144, 245, 0.2);
 }
@@ -127,4 +135,87 @@ body{
 }
 .div-description3{
     background-color: rgb(247, 235, 207);
+}
+
+/* div3 */
+.div3{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 32px;
+    padding: 41px 22px 41px 22px;
+    background-image: url('./B11A1--assignment-1-main/assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 2% 16%;
+}
+.div3>p{
+    line-height: 24px;
+
+}
+.div3>.last-description{
+    margin-top: -10px;
+}
+.div3>h3{
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+/* div-4 */
+.div4>h2{
+    margin-top: 90px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.div4>p{
+    margin-bottom: 32px;
+    line-height: 24px;
+
+}
+
+/* content-1 & content-3 */
+.content1, .content3{
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    padding-bottom: 48px;
+}
+.description1, .description3{
+    padding: 22px 48px 0px 0px;
+    /* width: 744px;
+    height: 290px; */
+}
+.image1,.image3{
+    padding: 48px 31px 0px 48px;
+}
+.image1>img, .image3>img{
+    border-radius: 24px;
+}
+.description1>h2,.description3>h2{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+}
+.description1>img,.description3>img{
+    margin-top: -12px;
+    margin-bottom: -10px;
+}
+.date-time{
+    display: flex;
+    gap: 12px;
+}
+.description1>p,.description3>p{
+    margin-top: -6px;
+    margin-bottom: 28px;
+    line-height: 24px;
+}
+.description1>button,.description3>button{
+    border-radius: 8px;
+    color: white;
+    background: rgb(0, 106, 80);
+    width: 139px;
+    height: 48px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px 3px 13px 3px;
 }
