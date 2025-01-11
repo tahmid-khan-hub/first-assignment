@@ -49,6 +49,9 @@ body{
     background-color: white;
     margin-bottom: 30px;
 }
+.navbar>button:hover{
+    background-color: lightgreen;
+}
 
 /* header body */
 .header-body{
@@ -84,6 +87,9 @@ body{
     font-size: 18px;
     font-weight: 600;
     border: none;
+}
+.head-content>button:hover{
+    background-color: darkslategray;
 }
 /* header-img */
 .header-img{
@@ -127,6 +133,9 @@ body{
     color: white;
     font-size: 16px;
     font-weight: 600;
+}
+.div2>.div-description1>button:hover, .div-description2>button:hover, .div-description3>button:hover{
+    background-color: darkslategray;
 }
 .div2>.div-description1>p, .div-description2>p, .div-description3>p{
     line-height: 24px;
@@ -230,6 +239,9 @@ body{
     font-weight: 600;
     padding: 13px 3px 13px 3px;
 }
+.description1>button:hover,.description3>button:hover,.description2>button:hover{
+    background-color: darkslategray;
+}
 
 /* content-2 */
 .content2{
@@ -283,6 +295,12 @@ body{
     background-color: white;
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
+.amount1:hover,.amount3:hover,.amount4:hover{
+    background-color: lightgreen;
+}
+.amount2:hover{
+        background-color: darkslategray;
+}
 .amount2{
     background-color: rgb(198, 228, 214) ;
 }
@@ -310,6 +328,9 @@ body{
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 80px;
+}
+.last-section>button:hover{
+    background-color: darkslategray;
 }
 .text{
     text-align: center;
@@ -364,6 +385,9 @@ body{
     line-height: 22px;
     color: white;
     padding-bottom: 3px;
+}
+.last-div>.button:hover{
+    background-color: darkslategray;
 }
 
 /* footer section */
