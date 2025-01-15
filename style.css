@@ -422,7 +422,10 @@ hr{
         flex-direction: column;
     }
     .header-img{
-        margin-left: -30px;
+        /* margin-left: -40px; */
+    }
+    .header-img>img{
+        width: 100%;
     }
     .div2{
         flex-direction: column;
@@ -436,7 +439,7 @@ hr{
     .content1,.content2,.content3{
         flex-direction: column;
         
-    }
+    }    
     .description1,.description3,.description2{
         text-align: center;
     }
@@ -447,8 +450,9 @@ hr{
     .description1,.description3{
         padding-left: 40px;
     }
-    .image1,.image2,.image3{
-        padding-left: 70px;
+    .image1>img,.image2>img,.image3>img{
+        /* padding-left: 30px; */
+        width: 100%;
     }
     .amount-container{
         margin: 0px;
@@ -456,14 +460,24 @@ hr{
     .amount1>h2,.amount2>h2,.amount3>h2,.amount4>h2{
         font-size: 22px;
         line-height: 33px;
+        padding-left: 20px;
     } 
     .text{
         width: 100%;
     }   
     .email{
-        width: 50%;
+        width: 100%;
+        height: 15%;
         margin-left: -30px;
         font-size: 17px;
+        margin-bottom: 10px;
+        border-radius: 12px;
+    }
+    .last-div>.button{
+        border-radius: 12px;
+    }
+    .last-div>h2{
+        margin-top: -40px;
     }
     .hr{
         width: 100%;
